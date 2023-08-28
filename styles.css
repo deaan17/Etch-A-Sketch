@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    margin-bottom: 20px;
+}
+div.container {
+     display: grid;
+    width: 500px;
+    height: 500px;
+    align-content: center; 
+    border: 1px solid black;
+
+}
+.inner {
+    height: 10px;
+    width: 10px;
+    background-color: aqua;
+    
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
